@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Proje</string>
+    <string name="title_anaSayfa">Ana Sayfa</string>
+    <string name="title_kitapEkle">Kitap Ekle</string>
+    <string name="title_kitaplarim">Kitaplarım</string>
+    <string name="title_arama">Arama</string>
+    <string name="title_ayarlar">Ayarlar</string>
+    <string name="title_cikis">Çıkış</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

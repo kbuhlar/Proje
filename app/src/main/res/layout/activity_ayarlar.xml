@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    tools:context="e.kaan.proje.Ayarlar">
+
+
+    <ToggleButton
+        android:id="@+id/tb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toogle butonu açarsanız arka plan yeşil olur kapatırsanız beyaz olur."/>
+
+    <Switch
+        android:id="@+id/switchh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ayarlar sayfanız mavi olsun istiyorsanız açın ---->"/>
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seçerseniz arka plan turuncu olur"
+        />
+  <RadioGroup
+      android:id="@+id/rg"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <RadioButton
+          android:id="@+id/rb1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Seçenerseniz arka plan mavi olur"/>
+      <RadioButton
+          android:id="@+id/rb2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Seçenerseniz beyaz olur"/>
+
+  </RadioGroup>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/seekbarR"
+        />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekbarB"
+
+        />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekbarG"
+
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seekbar renk cümbüşü görürsünüz arka planda."/>
+
+
+
+</LinearLayout>

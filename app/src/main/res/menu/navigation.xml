@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_anaSayfa"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_anaSayfa" />
+
+    <item
+        android:id="@+id/navigation_kitapEkle"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_kitapEkle" />
+
+    <item
+        android:id="@+id/navigation_ayarlar"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_ayarlar" />
+
+
+
+
+
+</menu>
